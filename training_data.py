@@ -37,7 +37,7 @@ for dir_name in dirs:
 		
 		face = np.array(image, 'uint8')
 
-		cv2.imshow("Training on image...", image)
+		cv2.imshow("Training on image...", face)
 		cv2.waitKey(100)
 
 		face = image
