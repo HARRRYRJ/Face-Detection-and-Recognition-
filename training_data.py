@@ -33,7 +33,7 @@ for dir_name in dirs:
 
 		image = cv2.imread(image_path)
 		
-		image=image.convert('L')
+		image=Image.convert('L')
 		
 		face = np.array(image, 'uint8')
 
