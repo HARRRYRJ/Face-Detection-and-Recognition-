@@ -40,7 +40,7 @@ for dir_name in dirs:
 		cv2.imshow("Training on image...", face)
 		cv2.waitKey(100)
 
-		face = image
+		#face = image
 
 		if face is not None:
 			faces.append(face)
